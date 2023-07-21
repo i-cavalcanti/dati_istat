@@ -10,14 +10,6 @@ MONGO_PASSWORD = os.getenv("MONGO_PASSWORD")
 MONGO_DB = os.getenv("MONGO_DB")
 MONGO_COLLECTION = os.getenv("MONGO_COLLECTION")
 
-# MONGO_HOST = "localhost"
-# MONGO_PORT = 27017
-# MONGO_USERNAME="root"
-# MONGO_PASSWORD="example"
-# MONGO_COLLECTION="mortality_causes"
-# MONGO_DB="istat"
-
-
 class TimeFilter():
     
     def __init__(self):
